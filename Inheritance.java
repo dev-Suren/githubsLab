@@ -9,6 +9,7 @@ class CarParts extends Car{
 		this.total = total;
 		this.name = name;
 	}
+	//Creating a empty constructor.
 	public void CarParts(){
 		this.number = -1;
 		this.total = -1;
