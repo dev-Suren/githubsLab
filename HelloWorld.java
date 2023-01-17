@@ -1,5 +1,12 @@
-class HelloWorld{
+public class HelloWorld{
 	public static void main(String [] args){
-		System.out.println("this is just a demo");
+		Hello obj = new Hello();
+		obj.printingOutput();
 }
+}
+
+class Hello{
+	public void printingOutput(){
+		System.out.println("Hello World");
+	}
 }
